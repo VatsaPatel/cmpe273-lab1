@@ -68,7 +68,6 @@ async def main():
         filewriter.writelines("%s\n" % i for i in temp_list)
 
 
-
 if __name__ == "__main__":
     ProcessTime = time.process_time()
     asyncio.run(main())
